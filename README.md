@@ -13,3 +13,20 @@ ELECTRON_MIRROR=http://npm.taobao.org/mirrors/electron/ npm install electron --s
 # 淘宝源全局安装
 ELECTRON_MIRROR=http://npm.taobao.org/mirrors/electron/ npm install electron -g
 ```
+
+## meteor-apollo-electron 集成
+
+```sh
+$ git clone https://github.com/apollographql/meteor-starter-kit
+$ cd meteor-starter-kit
+$ meteor npm install
+$ ELECTRON_MIRROR=http://npm.taobao.org/mirrors/electron/ meteor npm install --save-dev meteor-desktop
+
+#you need to have any mobile platform added (ios/android)
+$ meteor add-platform android     
+$ meteor --mobile-server=127.0.0.1:3000
+
+ # open new terminal
+$ npm run desktop -- init
+$ npm run desktop
+```
