@@ -14,19 +14,6 @@ ELECTRON_MIRROR=http://npm.taobao.org/mirrors/electron/ npm install electron --s
 ELECTRON_MIRROR=http://npm.taobao.org/mirrors/electron/ npm install electron -g
 ```
 
-## meteor-apollo-electron
+## 模板项目
 
-```sh
-$ git clone https://github.com/apollographql/meteor-starter-kit
-$ cd meteor-starter-kit
-$ meteor npm install
-$ ELECTRON_MIRROR=http://npm.taobao.org/mirrors/electron/ meteor npm install --save-dev meteor-desktop
-
-# 安装android或ios是为了满足--mobile-server的运行方式
-$ meteor add-platform android     
-$ meteor --mobile-server=127.0.0.1:3000
-
-# 打开一个新term
-$ npm run desktop -- init
-$ npm run desktop
-```
+https://github.com/chentsulin/electron-react-boilerplate
