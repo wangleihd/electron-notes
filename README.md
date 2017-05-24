@@ -14,6 +14,10 @@ ELECTRON_MIRROR=http://npm.taobao.org/mirrors/electron/ npm install electron --s
 ELECTRON_MIRROR=http://npm.taobao.org/mirrors/electron/ npm install electron -g
 ```
 
+## 教程
+
+https://www.udemy.com/electron-react-tutorial/
+
 ## 模板项目
 
 https://github.com/chentsulin/electron-react-boilerplate
